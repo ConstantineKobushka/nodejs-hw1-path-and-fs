@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-hw1-path-fs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "node ./src/index.js",
+    "dev": "nodemon src/index.js",
+    "generate": "node src/scripts/generateContacts.js",
+    "get-all": "node src/scripts/getAllContacts",
+    "add-one": "node src/scripts/addOneContact.js",
+    "count": "node src/scripts/countContacts.js",
+    "remove-last": "node src/scripts/removeLastContact.js",
+    "remove-all": "node src/scripts/removeAllContacts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConstantineKobushka/nodejs-hw1-path-fs.git"
+  },
+  "keywords": [],
+  "author": "Kostiantyn Kobushka <kobushkaconstantine@gmail.com>",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ConstantineKobushka/nodejs-hw1-path-fs/issues"
+  },
+  "homepage": "https://github.com/ConstantineKobushka/nodejs-hw1-path-fs#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@faker-js/faker": "^10.4.0",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0",
+    "nodemon": "^3.1.14"
+  }
+}
